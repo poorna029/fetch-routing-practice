@@ -1,0 +1,38 @@
+.blog-image {
+  width: 300px;
+}
+.blogList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.avatar-image-name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.avatar-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.topic {
+  color: #aaa;
+}
+
+.author {
+  color: #aaa;
+}
+
+/* .bl-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+} */
